@@ -190,6 +190,7 @@ public class Generate {
             }
 
         } while (unvisitedCount() > 0);
+        coordStack.clear();
         return true;
     }
 }
