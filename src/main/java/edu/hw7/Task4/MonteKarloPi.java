@@ -34,6 +34,7 @@ public class MonteKarloPi {
                 circleCount++;
             }
         }
+        
         return 4 * (circleCount / iterCount);
     }
 
@@ -41,6 +42,7 @@ public class MonteKarloPi {
 
         LongAdder circleCount = new LongAdder();
         int numberOfThread = 2;
+        
         Runnable lambda = (() -> {
             for (int i = 1; i <= iterCount / numberOfThread; ++i) {
                 Point point =
