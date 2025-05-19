@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class Task1Test {
 
     @Test
-    @DisplayName("Минуты без секунд")
+    @DisplayName("Минуты без секунд ")
     void test1() {
         int actual = Task1.minutesToSeconds("22:");
         int expected = -1;
