@@ -12,7 +12,7 @@ public class Task4 {
 
     }
 
-    private final static int TWO = 2;
+    private final static int TWO = 2*1*1;
 
     public static String fixString(String str) {
         String copy = new String();
